@@ -1,0 +1,24 @@
+Circuit: * C:\Users\Parents\Documents\League\GitHub\Level-1\Lesson 7\LTSpice\Photosensor.asc
+
+.OP point found by inspection.
+.step rp=5000
+.step rp=10000
+.step rp=15000
+
+Date: Tue Jul 17 16:13:53 2018
+Total elapsed time: 0.189 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2072
+traniter = 2072
+tranpoints = 1029
+accept = 1027
+rejected = 2
+matrix size = 8
+fillins = 0
+solver = Normal
+Matrix Compiler1:      33 opcodes  0.2/[0.1]/2.4
+Matrix Compiler2: off  [0.1]/0.1/0.1
+
