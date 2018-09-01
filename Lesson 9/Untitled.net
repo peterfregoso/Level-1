@@ -1,0 +1,18 @@
+* /Users/league/Desktop/Level-1/Lesson 9/Untitled.asc
+V1 N001 0 9
+R1 N001 Vb 175k
+R2 Vb 0 175k
+R3 N002 VLED 47.5
+Rt Vb 0 {Rp}
+Q1 N001 Vb N002 0 2n2222
+D1 VLED 0 WP710A10QBC-2
+.model D D
+.lib /Users/league/Library/Application Support/LTspice/lib/cmp/standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib /Users/league/Library/Application Support/LTspice/lib/cmp/standard.bjt
+.tran 0 1ms 0 1us startup
+.step param Rp 80k 600k 20k
+.lib WP710A10QBC.SP3
+.backanno
+.end
