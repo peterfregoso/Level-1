@@ -1,0 +1,5 @@
+*============================================
+* LED Model for Kingbright WP710A10QBC
+*============================================
+
+.model WP710A10QBC-2 D(Is=37.6n Rs=8.163 N=9.626 Cjo=42p Xti=200 Iave=30m Vpk=5 mfg=Kingbright type=LED)
